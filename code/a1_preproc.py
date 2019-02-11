@@ -190,7 +190,6 @@ def preproc1(comment, steps=range(1, 11)):
 
 def main(args):
 	allOutput = []
-	indir = '../data'
 	for subdir, dirs, files in os.walk(indir):
 		for file in files:
 			fullFile = os.path.join(subdir, file)
