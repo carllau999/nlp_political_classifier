@@ -1,0 +1,7 @@
+0.25975,0.25075,0.25075,0.381125,0.3395,0.398125
+0.251,0.262,0.262,0.36875,0.338375,0.399875
+0.259625,0.254125,0.254125,0.369,0.357375,0.399375
+0.244125,0.251875,0.251875,0.380625,0.3305,0.400625
+0.270375,0.253,0.253,0.392375,0.343375,0.406375
+3.0027093015436527e-06,5.408149332551573e-07,0.003014424794638618,0.00022419400412676028
+We can see that our best classifier, AdaBoost, performs better than all but one classifier. Most classifiers the pvalue is less than 1%, however, has a 50% pvalue with Random Forest. This means that the null hypthesis may be true and that the Random Forest classifier performs the same as AdaBoost withthe features used. This may be because AdaBoost readjusts weighting on labels similar to how Random Forest generates its Decision Trees.

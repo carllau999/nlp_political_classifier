@@ -1,0 +1,2 @@
+0.315125,0.379375,0.389625,0.3975,0.39025
+The expected behaviour is that an increase in training set leads to an increase in accuracy. We can see here that as the number of training sets increase, the accuracies have slightly increased and oscillates near a value. This may be due to limitations in the features extracted and that the features may not directly correlate to the resulting party.
